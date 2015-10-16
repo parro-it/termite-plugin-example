@@ -1,3 +1,6 @@
-module.exports = function test4() {
-  return Promise.resolve(42);
+module.exports = function termiteExamplePlugin(app) {
+  app.packages.example = {
+    name: 'termite-example-plugin',
+    path: __dirname
+  };
 };
