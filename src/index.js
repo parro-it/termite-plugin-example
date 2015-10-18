@@ -1,6 +1,6 @@
 module.exports = function termiteExamplePlugin(app) {
-  app.packages.example = {
-    name: 'termite-example-plugin',
+  return {
+    name: 'example',
     path: __dirname
   };
 };
